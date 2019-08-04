@@ -52,6 +52,8 @@ optional arguments:
 
 `$ python3 main.py -f /path_to_folder/file_name.txt`
 
+Some test txt files can be found in `/txt_files/` folder
+
 Example output:
     
     Original: abcde
