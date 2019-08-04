@@ -41,16 +41,7 @@ spaces at least from one side of "-", like Sierra - Nevada, the script accepts i
 - All punctuation symbols and special symbols also will be ignored based on req #3.
 
 
-Example:
+Example output:
     
     Original: abcde
     Transposed: edcba
-    
- 
- PS:
-  there are 2 small pices of code that don't cover by tests:
-   * ```__main__``` I found several solutions how to tast it using ```unittest.mock```, but I need spend 
-   some time for deeper investigations.
-   * ```ProcessPoolExecutor``` it is very easy to see how it works using Activity Monitor
-   but it asks some "magic" to code.
-   
