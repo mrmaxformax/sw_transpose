@@ -1,0 +1,11 @@
+1
+a
+ab
+abc
+33
+False
+abcd
+abcde
+YGKNkfdfs
+
+
