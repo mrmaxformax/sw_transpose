@@ -40,6 +40,17 @@ You can also run unittests with:
 spaces at least from one side of "-", like Sierra - Nevada, the script accepts it as 2 words.
 - All punctuation symbols and special symbols also will be ignored based on req #3.
 
+#### How to run:
+usage: main.py [-h] [-f F] [-p P] [--debug | --silent]
+
+optional arguments:
+*  -h, --help    show this help message and exit
+*  -f F          Path to the file
+*  -p P          Path to the folder with multiple files
+*  --debug, -d   enable debugging mode
+*  --silent, -s  enable silent (only critical) mode
+
+`$ python3 main.py -f /path_to_folder/file_name.txt`
 
 Example output:
     
